@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="pic">
+            <div class="wrapper">
+                <div class="offer">
+                    <h1 class="title">С помощью нас<br> вы сможете сделать то,
+                        о чем <br></h1>
+                    <span class="title_span">ЖЕЛАЕТЕ</span>
+                    <p class="ofer_text">Наши возможности + опыт позволят
+                         вам достичь огромного успеха. Мы верим в вас!
+                         И знаем это на все 100%. Вас не остановить!
+                    </p>
+                    <a href="#" class="btn">Узнать больше...</a>
+                </div>
+                <img class="header_img" src="img/header-img.png" alt="picture">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h2 class="main_title">Что вам необходимо?</h2>
+            <div class="blocks">
+                <div class="block">
+                    <img src="img/f3.png" alt="pic">
+                    <h1>Первый блок</h1>
+                    <p>Lorer, ignoms dolor sk amet cornectetur alpisking sik</p>
+                </div>
+                <div class="block">
+                    <img src="img/f4.png" alt="pic">
+                    <h1>Второй блок</h1>
+                    <p>torens poum dolor, sit ames consectetur
+                        адрекі сік?</p>
+                </div>
+                    <div class="block">
+                    <img src="img/f5.png" alt="pic">
+                    <h1>Третий блок</h1>
+                    <p>Lorem psum dolar sit amet consectetur
+                        ad piscing stas</p>
+                </div>    
+            </div>
+        </div>
+    </main>
+
+    <section class="n5">
+        <h1 class="info_text2">Форма заказа продукции</h1>
+        <div class="dannie2">
+                <div class="info">
+                <form action="#" method="POST" enctype="multipart/form-data" id="">
+                    <div class="form">
+                        <span id="ynameError"></span>
+                        <input type="text" placeholder="Имя" id="yname" onchange = "checkInput('yname', 'ynameError', /^[a-zA-Zа-яА-ЯёЁ\s]{2,15}$/, 'Введите корректное имя');">
+                    </div>
+
+                    <div class="form">
+                        <span id="mailError"></span>
+                        <input type="text" placeholder="Введите свой Email" id="mail" onchange="checkInput('mail', 'mailError', /\S+@\S+\.\S+/, 'Введите корректный e-mail');;">
+                    </div>
+                    
+                    <div class="form">
+                        <span id="telefonError"></span>
+                        <input type="tel" placeholder="Телефон(без восьмерки)" id="telefon" onchange="checkInput('telefon', 'telefonError', /^\d{9}$/, 'Введите корректный номер телефона');">
+                    </div>
+
+                    <div class="form">
+                        <span id="indexError"></span>
+                        <input type="text" placeholder="Введите свой почтовый индекс(6 цифр)" id="index" onchange="checkInput('index', 'indexError', /^\d{6}$/, 'Введите корректный индекс');">
+                    </div>
+                    
+                    <div class="send">
+                        <input type="submit" value="Отправить вопрос!" class="bntt">
+                    </div>
+                </form>
+                </div>
+        </div>
+    </section>
+
+    <section class="n3">
+        
+        <div class="dannie">
+            <h1 class="info_text">Форма заказа обратного звонка</h1>
+            
+            <div class="info">
+                <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form">
+                    <input type="text" placeholder="Имя" required pattern="[A-Za-zА-Яа-яЁё]{2,15}" title="Введите корректное имя">
+                </div>
+                <div class="form">
+                    <input type="email" placeholder="Введите свой Email" required>
+                </div>
+                <div class="form">
+                    <input type="tel" placeholder="Телефон(без восьмерки)" required pattern="\d{9}" title="Введите телефон">
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Какая тема Вас интересует?" required pattern="[A-Za-zА-Яа-яЁё]{3,15}" title="Введите тему обращения(коротко)">
+                </div>
+                <div class="send">
+                    <input type="submit" value="Отправить вопрос!" class="bntt">
+                </div>
+                </form>
+            </div>
+            
+        </div>
+    
+    </section>
+
+    <section class="n4">
+        <h3 class="end">© Все на этом сайте защищено</h3>
+    </section>
+    <script src="/Users/dennn/Desktop/index6-main/script.js"></script>
+</body>
+</html>

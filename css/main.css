@@ -1,0 +1,292 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,220,253,1) 0%, rgba(80,71,185,1) 100%, rgba(161,233,250,1) 100%, rgba(0,212,255,1) 100%);
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto
+}
+.logo{
+    margin-top: 40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer{
+    margin-bottom: 80px;
+    width: 700px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.title_span{
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.ofer_text{
+font-size: 14px;
+width: 350px;
+margin-top: 20px;
+margin-bottom: 40px;
+color: aliceblue;
+}
+
+.btn{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: rgb(243, 215, 32);
+
+}
+.btn.btn:hover{
+    background-color: rgb(198, 200, 36);
+}
+.header_img{
+
+    width: 450px;
+    padding-top: 40px;
+
+}
+
+/*
+Вторая секция
+*/
+
+
+
+
+.main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main_title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+
+}
+.block{
+text-align: center;
+width: 25%;
+}
+
+.block img{
+    margin-bottom: 30px;
+}
+
+
+.n3{
+    background-color: rgb(222, 222, 222);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.info{
+    width: 0 auto;
+    padding-left: 50px;
+}
+
+
+.dannie{
+    width: 350px;
+    margin: 0 auto;
+    }
+    
+
+.info_text{
+    padding-top: 25px;
+
+}
+
+.form{
+
+    padding-top: 20px;
+
+    /*text-align: center;*/
+}
+
+.send{
+    padding-top: 20px;
+}
+.bntt{
+
+    width: 225px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight:bold;
+    text-decoration: none;
+    background-color: rgb(243, 215, 32);
+    border: 0.5px solid black;
+    }
+
+
+.bntt.bntt:hover{
+    background-color: rgb(198, 200, 36);
+}
+input{
+    width: 220px;
+    height: 30px;
+    border: 0.5px solid black;
+}
+
+.n4{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,220,253,1) 0%, rgba(80,71,185,1) 100%, rgba(161,233,250,1) 100%, rgba(0,212,255,1) 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.end{
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+    padding-right: 30px;
+}
+
+.n5{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,220,253,1) 0%, rgba(80,71,185,1) 100%, rgba(161,233,250,1) 100%, rgba(0,212,255,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.dannie2{
+    width: 350px;
+    margin: 0 auto;
+    
+    }
+
+.info_text2{
+    text-align: center;
+    
+  
+}
+
+#ynameError,
+#mailError,
+#telefonError,
+#indexError{
+    display: none;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+
+
+@media screen and (max-width:1200px)
+{
+    .container {
+        width: 90%
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .desktop {
+        width: 65%;
+        margin-top: 40px;
+    }
+
+    .wishes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wish {
+        margin-top: 40px;
+    }
+
+    .ofer_text {
+        width: 100%;
+    }
+
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:992px)
+{
+    .container {
+        width: 80%
+    }
+
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .container {
+        width: 80%
+    }
+
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+}
+
+@media screen and (max-width:576px)
+{
+    .form {
+        width: 90%;
+    }
+
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
